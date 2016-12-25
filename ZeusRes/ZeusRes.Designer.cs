@@ -15,8 +15,6 @@
         {
             if (disposing)
             {
-                if (trayIcon != null)
-                    trayIcon.Dispose();
                 if (components != null)
                     components.Dispose();
             }
@@ -32,7 +30,16 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ZeusRes));
+            this.ofd = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
+            // 
+            // ofd
+            // 
+            this.ofd.DefaultExt = "exe";
+            this.ofd.FileName = "zeus.exe";
+            this.ofd.Filter = "Zeus-ish Application (zeus.exe)|zeus.exe";
+            this.ofd.RestoreDirectory = true;
+            this.ofd.Title = "Where is Zeus-ish Located?";
             // 
             // ZeusRes
             // 
@@ -48,6 +55,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.OpenFileDialog ofd;
     }
 }
 

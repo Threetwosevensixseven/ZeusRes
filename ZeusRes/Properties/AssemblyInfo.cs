@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ZeusRes")]
-[assembly: AssemblyDescription("Resolution optimizer for Zeus-ish Z80 cross assembler")]
+[assembly: AssemblyDescription("A simple resolution optimizer for the Zeus-ish Z80 cross assembler.")]
 [assembly: AssemblyConfiguration("Zeus-ish is copyright © 1980-2016 Neil Mottershead and Simon Brattel http://www.desdes.com/products/oldfiles/zeus.htm")]
 [assembly: AssemblyCompany("https://github.com/Threetwosevensixseven/ZeusRes")]
 [assembly: AssemblyProduct("ZeusRes")]

@@ -55,6 +55,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Settings.cs" />
+    <Compile Include="Win32.cs" />
+    <Compile Include="WindowHandleInfo.cs" />
     <Compile Include="ZeusRes.cs">
       <SubType>Form</SubType>
     </Compile>
