@@ -7,7 +7,7 @@ At lower resolutions like 1366x766, a few important buttons get cropped off the 
 |:-------------:|:-------------:|
 | ![Before](https://raw.githubusercontent.com/Threetwosevensixseven/ZeusRes/master/Images/before.png) | ![After](https://raw.githubusercontent.com/Threetwosevensixseven/ZeusRes/master/Images/after.png) |
 
-By changing your app shortcut from Zeus-ish tpo to this helper app, the whole process is fairly seamless.
+By changing your app shortcut from *Zeus-ish* to to this helper app, the reolution optimization becomes pretty seamless.
 
 ## Prerequisites
 1. Install [.NET Framework 4.6.1](https://www.microsoft.com/en-us/download/details.aspx?id=49981).
