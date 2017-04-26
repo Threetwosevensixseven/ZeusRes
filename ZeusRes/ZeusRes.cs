@@ -138,6 +138,7 @@ namespace ZeusRes
                             Win32.MoveWindow(ctrl, "WAIT", "TButton", 22, 659 - YOFFSET - (YSHRINK * 1));               // Was 22, 659
                             Win32.MoveWindow(ctrl, "Step", "TButton", 22,  690 - YOFFSET - (YSHRINK * 2));              // Was 22, 690
                             Win32.MoveWindow(ctrl, "Follow Execution", "TCheckBox", 16, 724 - YOFFSET - (YSHRINK * 3)); // Was 16, 724
+                            Win32.MoveWindow(ctrl, "Replay Locked", "TCheckBox", 16, 745 - YOFFSET - (YSHRINK * 4));    // Was 16, 745
                         }
                     }
                 }
