@@ -1,6 +1,8 @@
 # ZeusRes
 A simple resolution optimizer for [Simon Brattel](http://www.desdes.com/)'s [Zeus-ish](http://www.desdes.com/products/oldfiles/zeus.htm) Z80 cross assembler.
 
+_Kind of obsolete now, as Simon has moved the Zeus UI around to be more compact. As a demo for general principle of rearranging other app's windows and controls on the fly with win32 API calls, it's still pretty useful though._
+
 At lower resolutions like 1366x766, a few important buttons get cropped off the bottom of the emulator panel. This simple app hides some of less-used controls and moves the buttons into their place:
 
 | **Before**    |   **After**   |
